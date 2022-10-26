@@ -24,7 +24,7 @@
 #### 1 - Git Clone.
 
 ```
-git clone https://github.com/normainobary2021/math-magicians.git
+git clone https://github.com/normainobary2021/math-magicians-2.git
 ```
 #### 2 - Install node packages.
 
