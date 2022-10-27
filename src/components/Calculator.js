@@ -112,13 +112,13 @@ class Calculator extends React.Component {
                 type="button"
                 className="key divide"
               >
-                /
+                &#247;
               </button>
               <button
                 type="button"
                 className="key multiply"
               >
-                *
+                &#10761;
               </button>
               <button
                 type="button"
