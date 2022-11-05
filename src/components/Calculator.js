@@ -18,12 +18,13 @@ const Calculator = () => {
   };
   return (
     <div className="container">
+      <span className="inspiration">
+        Let&apos;s do some Maths!
+      </span>
       <div className="calculator">
         <div className="display">
           <span>
-            {' '}
             {next || operation || total || err || 0}
-            {' '}
           </span>
         </div>
         <div className="keypad">
@@ -124,11 +125,24 @@ const Calculator = () => {
             </div>
           </div>
           <div className="operators">
-            <button type="button" onClick={handleClick} className="key divide" value="÷">&#247; </button>
-            <button type="button" onClick={handleClick} className="key multiply" value="x">&#10761; </button>
+            <button type="button" onClick={handleClick} className="key divide" value="÷">
+              /
+              {' '}
+            </button>
+            <button type="button" onClick={handleClick} className="key multiply" value="x">
+              *
+              {' '}
+            </button>
             <button type="button" onClick={handleClick} className="key subtract" value="-">-</button>
-            <button type="button" onClick={handleClick} className="key add" value="+">+ </button>
-            <button type="button" onClick={handleClick} className="key equalTo" value="="> = </button>
+            <button type="button" onClick={handleClick} className="key add" value="+">
+              +
+              {' '}
+            </button>
+            <button type="button" onClick={handleClick} className="key equalTo" value="=">
+              {' '}
+              =
+              {' '}
+            </button>
           </div>
         </div>
       </div>
