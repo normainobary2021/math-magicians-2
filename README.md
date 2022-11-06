@@ -6,6 +6,8 @@
 > The App contains three pages (Home, Calculator and Quote).
 > It will be developed in multiple stages, and currently it is in its initial setup stage of development.
 
+![Project Screenshot](./screenshot.png "Math Magician")
+
 ## Built With
 
 - **HTML**
@@ -24,7 +26,7 @@
 #### 1 - Git Clone.
 
 ```
-git clone https://github.com/normainobary2021/math-magicians-2.git
+git clone https://github.com/normainobary2021/math-magicians.git
 ```
 #### 2 - Install node packages.
 
